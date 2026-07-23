@@ -106,7 +106,7 @@ K-Means Clustering & PCA Visualisation
 The training dataset was augmented to improve model generalisation and reduce overfitting by generating transformed versions of the original chest X-ray images.
 
 <p align="center">
-  <img src="Augmented_Training_images.png" alt="Data Augmentation" width="900">
+  <img src="./plots/Augmented_Training_images.png" alt="Data Augmentation" width="900">
 </p>
 
 ---
@@ -116,7 +116,7 @@ The training dataset was augmented to improve model generalisation and reduce ov
 The dataset was analysed to verify the distribution of images across the three classes before model training.
 
 <p align="center">
-  <img src="Training_class_distribution.png" alt="Training Class Distribution" width="700">
+  <img src="./plots/Training_class_distribution.png" alt="Training Class Distribution" width="700">
 </p>
 
 ---
@@ -126,7 +126,7 @@ The dataset was analysed to verify the distribution of images across the three c
 Principal Component Analysis (PCA) was applied to CNN-generated feature embeddings to compare the true class labels with K-Means clustering results. The visualisation illustrates how effectively the CNN learned discriminative feature representations for chest X-ray classification.
 
 <p align="center">
-  <img src="pca_cnn_embeddings_true_vs_kmeans.png" alt="PCA Visualisation" width="900">
+  <img src="./plots/pca_cnn_embeddings_true_vs_kmeans.png" alt="PCA Visualisation" width="900">
 </p>
 
 ---
@@ -194,4 +194,5 @@ covid19-xray-diagnosis-ai/
 # 👤 Author
 
 **Nithyashree Nataraja**
+
 **Data Analyst | SQL | Python | Power BI | Data Visualization**
